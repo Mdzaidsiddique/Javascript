@@ -1,0 +1,23 @@
+- History & Purpose
+    - JavaScript was created in 1995 by Netscape for the browser.
+    - Its main job was to make web pages interactive (e.g., validating forms, showing alerts, animations, DOM manipulation).
+    - That means, for a long time, the only place JavaScript could run was inside a web browser.
+
+- Every browser (Chrome, Firefox, Edge, Safari) has a JavaScript engine built in:
+    - Chrome → V8
+    - Firefox → SpiderMonkey
+    - Safari → JavaScriptCore
+    - Edge → Chakra (old versions)
+    
+- When we load an HTML page, the browser finds <script> tags and runs the .js code using its engine.
+
+- js files usually runs in the browser, to run them directly in vs code we need node.js
+    - install node.js
+    - node -v
+    - node filename.js (this will run the file)
+    - can install code runner extension also
+
+- what is node.js? 
+    - open source, cross-platform JS runtime env, that allows js to run outside browser 
+    - Node.js took the V8 engine out of Chrome and gave it extra features like file system access, network access, etc., 
+    - so now JS can also run on servers or local machines.

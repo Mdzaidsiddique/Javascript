@@ -1,0 +1,11 @@
+- console: 
+    - a global obj in js, it is a built-in debugging utility
+    - provided by runtime env (node.js) or browser
+    - it is not a part of ECMAScript (origional js)
+
+- methods of console obj:
+    - console.log(): print general message
+    - console.error(): print error message
+    - console.warn(): print warning
+    - console.table(): display array obj in table format
+    - console.time()/.timeEnd(): measure execution time
