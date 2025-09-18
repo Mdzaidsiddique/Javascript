@@ -1,5 +1,42 @@
-let array = [1, 2, 11, 3, 4, 5, 0, 2]
-// console.log(array.splice(-3)); // remove last 3 element
-// console.log(array.splice(4, 6)); // remove 4th and 5th index element
-console.log(array.splice(3, "a", "b")); // remove from 3rd index and add to last
-console.log(array);
+let developers_array = [
+    {
+      firstName: "John",
+      lastName: "Doe",
+      dept: "FE",
+      commits: 10
+    },
+    {
+      firstName: "Jane",
+      lastName: "Doe",
+      dept: "BE",
+      commits: 15
+    },
+    {
+      firstName: "James",
+      lastName: "bond",
+      dept: "BE",
+      commits: 8
+    }]; 
+
+// expected result : { BE: ["Jane", "James"], FE: ["John"]} 
+// let result = developers_array.reduce((acc, current) => {
+//     current.dept === "BE" ?
+//         acc.BE.push(current.firstName) :
+//         acc.FE.push(current.firstName);
+    
+//     return acc;
+        
+
+res = developers_array.reduce((acc, item) => {
+    if(item.dept === "FE"){
+        acc.FE.push(item.firstName)
+    }else{
+        acc.BE.push(item.firstName)
+    }
+    return acc
+}, {
+    BE : [],
+    FE : []
+})
+
+console.log(res)

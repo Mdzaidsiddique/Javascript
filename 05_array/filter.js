@@ -1,6 +1,6 @@
 /*
     Array.filter() ::
-    return nw array with same or less number of items then older array
+    return new array with same or less number of items then older array
     take an argumentFunction
     we can skip elements in filter() call
     for every item argyument fn will return truthy/falsy value, truthy one will be included in new array

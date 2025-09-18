@@ -1,7 +1,7 @@
 /*
-return brand new array with the same number of items as old one
-take callback fn as a parameter and get access to all items one by one
-there is no way to skip elements 
+- return brand new array with the same number of items as old one
+- take callback fn as a parameter and get access to all items one by one
+- there is no way to skip elements 
 */
 
 let arr = Array(2, 3, 4, 5, 6, 8, 5);

@@ -1,3 +1,5 @@
+// array.find(callback function): return first matching element
+
 let booksList = [
     {title:'Elequent Javascript',Author:'Marjin haverbeke'},
     {title:'JavaScript & JQuery',Author:'Jon Duckett'},
