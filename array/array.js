@@ -1,4 +1,7 @@
 //Arrays
+let a= [1,2,3]
+a[4] = 5 // a = [1,2,3,undefined, 5]
+
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
 arr[0] = 5 //update value of perticular index with provided value
@@ -16,11 +19,12 @@ let arr2 = [5, 6, 7, 8]
 
 let arr3 = arr1.concat(arr2)
 //slice()
-console.log(arr3.slice(0, 3)); //original array won't change, exclude last parameter
+console.log(arr3.slice(0, 3)); //return shallow copy, original array won't change, exclude last parameter
 console.log(arr3);
 
 //splice()
-console.log(arr3.splice(0, 3)); //modify original array, include last paramente
+console.log(arr3.splice(0, 3)); //modify original array, (start index, deleteCount) 
+// start from index 0 and delete 3 element
 console.log(arr3);
 
 //flat()

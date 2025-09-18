@@ -1,6 +1,6 @@
 /* Primitive DataTypes :: predefined or in builts types 
 There are 7 premitive datatype in javascript
-[number, bigInt, null, undefined, string, booolean, Symbol]
+[number, bigInt, null, undefined, string, boolean, Symbol]
 */
 
 // 1:number (Range:: (-2^53-1 --> +2^53-1)) 

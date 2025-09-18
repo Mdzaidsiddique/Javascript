@@ -1,4 +1,3 @@
-
 // do while :: atleast run for one time
 // first do then condition check
 
