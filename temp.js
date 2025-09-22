@@ -1,7 +1,8 @@
-num = 123
+function higherOrder2(){
+    return function sayHi(name){
+        console.log(`Hi ${name}`);
+    }
+}
 
-s = num.toString()
-
-console.log(s.parseInt());
-
-
+greeti = higherOrder2()
+greeti("zaid alif siddique")

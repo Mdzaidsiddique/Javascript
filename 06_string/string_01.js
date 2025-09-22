@@ -46,7 +46,7 @@ const lastName = "Siddique";
 console.log(lastName.slice(0, 3)); //Sid
 
 //charCodeAt()
-console.log(lastName.charCodeAt(1)); //return unicode value
+console.log(lastName.charCodeAt(1)); //return unicode value (e.g: a-97, A-65, etc)
 
 //split()
 const fullName = "Md Zaid Siddique"
@@ -71,3 +71,5 @@ const fullNamew = "Md Zaid Siddique"
 // replace(pattern, replacement)
 let replacedString = fullNamew.replace("d", "-") //find 1st occurance and replce
 console.log(replacedString); //in case of "" add to start
+
+//replaceAll(pat, rep): replace all matching characters

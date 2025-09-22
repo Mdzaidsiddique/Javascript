@@ -21,7 +21,6 @@ console.log(iifeStored);
 })("Zaid");
 
 // :: Unnamed IIFE with arrow function
-
 ((name) => {
     console.log(`Hi ${name} how are you...?`)
 })("zaid");

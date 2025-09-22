@@ -12,7 +12,7 @@ console.log(Math.pow(num2, num1));
 
 console.log(Math.round(3.5));
 
-console.log(Math.random());
+console.log(Math.random()); // random no between 0-1
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
 
