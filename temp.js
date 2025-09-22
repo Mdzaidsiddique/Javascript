@@ -1,8 +1,4 @@
-function higherOrder2(){
-    return function sayHi(name){
-        console.log(`Hi ${name}`);
-    }
-}
+// this and arrow
 
-greeti = higherOrder2()
-greeti("zaid alif siddique")
+
+

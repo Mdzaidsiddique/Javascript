@@ -8,7 +8,7 @@ const newNums = myNums.map((num)=> num*10)
 
 // console.log(newNums);
 
-const nums = [1,2,3,4]
+let nums = [1,2,3,4]
 let acc = 0
 
 const reduce = nums.reduce((acc, curr) => {
@@ -16,3 +16,14 @@ const reduce = nums.reduce((acc, curr) => {
 }, acc);
 
 console.log(reduce);
+
+nums = [1,2,3,4,5,6,7]
+res = nums.map( item => item*10)
+        .map(item => item+5)
+        .filter(item => item >=40)
+        .reduce((acc, curr)=>{
+            return acc+curr;
+        }, 0)
+
+// inside res we have sum of all the values above 40
+console.log(res);

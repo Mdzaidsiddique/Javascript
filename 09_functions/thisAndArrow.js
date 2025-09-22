@@ -39,14 +39,14 @@ const user = {
 // chai()
 
 
-//  ------- Arrow Function ----------
+//  ------- Arrow Function (anonymous fn) ----------
 // const addTwoNums = (num1, num2) => {
 //     return num1 + num2  // return keyword mandatory in { }
 // }
 
 // const addTwoNums = (num1, num2) => (num1 + num2) // return not required
 
-const checkArrowWithObect = () => ({ name: "zaid"}) 
+const checkArrowWithObject = () => ({ name: "zaid"}) 
 
-console.log(checkArrowWithObect());
+console.log(checkArrowWithObject());
 
