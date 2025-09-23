@@ -27,6 +27,6 @@ console.log(a);
 console.log(b);
 console.log(s);
 
-/* var variables are 'function scope. ' What does this mean? It means they are only available inside the function they're created in, or if not created inside a function, they are 'globally scoped. */
-
-
+/* var variables are 'function scope.
+ ' What does this mean? It means they are only available inside the function they're created in,
+   or if not created inside a function, they are 'globally scoped. */

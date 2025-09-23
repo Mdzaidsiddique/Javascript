@@ -1,11 +1,10 @@
-// definition
-// through constructor:: singleton
-const object = Object.create
-const obj1 = new Object();
+/* objects in JavaScript is a collection of key–value pairs, 
+    - where keys (called properties) are strings or symbols, 
+    - values can be any data type (numbers, strings, arrays, functions, other objects, etc.)*/
 
-const mysymbol = Symbol("key1")
+// definition: object literals
 
-const obj2 = {     // object literals
+const obj2 = { 
     name: "zaid",
     "fullName": "md zaid siddique",
     age: 18,
@@ -27,8 +26,7 @@ obj2["isLogIn"] = true;
 // Object.freeze(obj2) // lock the object for changes: no error but value will not propogate
 
 obj2.email = "zaid@yahoo.com"
-
-// console.log(obj2);
+// console.log(obj2.email); //zaid@mindfire.com
 
 let o1 = {
     "id" : 1,
@@ -57,6 +55,11 @@ console.log(o2.user.userAddress.nationality());
 // check object properties
 console.log("id" in o2);
 
+// through constructor:: singleton
+const object = Object.create
+const obj1 = new Object();
+
+const mysymbol = Symbol("key1")
 
 // check ibject is empty or not 
 let ob = {}
