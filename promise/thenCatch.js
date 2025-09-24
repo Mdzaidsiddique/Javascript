@@ -1,4 +1,4 @@
-// promice :: pending, resolve reject
+// promise :: pending, resolve reject
 
 let promise1 = new Promise((resolve, reject)=>{
     let data = false; // fetching data from url, db connection etc

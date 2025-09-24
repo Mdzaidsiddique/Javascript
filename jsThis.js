@@ -11,7 +11,7 @@ function rule1(){
 
 
 // Rule 2: implisit binding 
-// if we implisit bind our object or use ibjectName.functionName() then this will points tpo object on it called
+// if we implisit bind our object or use ibjectName.functionName() then this will points to object on it called
 
 let obj = {
     name : "zaid",
@@ -81,7 +81,7 @@ salman.sayhello() // this point to salman
 
 // Rule 6: Arrow function
 // in the arrow function this points where the body of arrow is, it will resolve lexically that means if body of arrow 
-// not specify this then it will lexically resolve, to immidiate pared scope ..then parent... and if now found then 
+// not specify this then it will lexically resolve, to immidiate pared scope ..then parent... and if not found then 
 // this will points to window or global object
 
 // const sayHi = (name)=>{

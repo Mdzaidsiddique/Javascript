@@ -30,7 +30,7 @@ obj2.email = "zaid@yahoo.com"
 
 let o1 = {
     "id" : 1,
-    greetings: function () {
+    greetings: function () { //this is called obj method
         console.log("greeting...");
     } 
 }

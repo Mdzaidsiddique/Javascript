@@ -7,7 +7,6 @@ function Person(name, age){  // conatructor dont return
     this.greet = () =>{
         console.log(`Hello world, My name is ${this.name} and i am ${this.age} year old`);
     }
-   
 }
 
 let p1 = new Person('zaid alif', 24)

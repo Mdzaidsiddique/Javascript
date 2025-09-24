@@ -55,3 +55,8 @@ const {userName, email, userId} = user;
 const { userName : un} = user;
 
 console.log(userName, un, email)
+
+// in built object methods
+// Object.keys(obj) -> [], Object.Values(obj)-> [], Object.entries(obj): -> [[],[]]
+// Object.seal(): new properties not allowed
+// Object.freeze(obj) ; modification won't reflect
