@@ -1,8 +1,6 @@
-let o = {
-    name : "umair",
-    sayArrowHello : ()=>{
-        console.log("hello arrow", this);
-    }
-}
+ let s = "I am learning JavaScript"
 
-o.sayArrowHello()
+ let sortedString = s.split("").sort().join("").trim();
+
+ console.log(sortedString);
+ 
